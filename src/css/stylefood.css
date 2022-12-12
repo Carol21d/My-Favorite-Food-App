@@ -1,0 +1,176 @@
+body{
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    background-color: #fff;
+}
+
+.box-header{
+    position: absolute;
+    right:500px;
+    left: 200px;
+    width: 800px;
+    height: 50px;
+    top: 15px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+   
+}
+
+ h1{
+    position: absolute;
+    padding-left: 12px;
+    font-weight: bold;
+    bottom: -18px;
+    text-align: center;
+    
+    
+}
+
+h2{
+    padding-left: 20px;
+}
+
+.nav-img{
+    position: absolute;
+    top: 80px;
+
+}
+
+div img{
+    position: absolute;
+    width: 800px;
+    left: 200px;
+    border-radius: 20px;
+    
+}
+
+main{
+    position: absolute;
+    top: 500px;
+    left:199px;
+    width: 50vh;
+    height: 80vh;
+    
+}
+
+#ingredients{
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 65vh;
+    
+
+ }
+
+p{
+margin: 12px 12px;
+font-size: 20px;
+
+    
+}
+
+.box-ingredients{
+ 
+    padding-left: 15px;
+    margin-bottom: 12px;
+}
+
+#preparation{
+    box-sizing: border-box;
+    border: 2px solid #000;
+    margin-top: 25px;
+    height: 28vh;
+    width: 65vh;
+    
+}
+
+.box-preparation{
+    margin: 20px 20px;
+    
+}
+
+
+.preparation-parrafo{
+     margin: 5px 50px; 
+    padding-left: 20px;
+    padding-top: 12px;
+    font-size: 15px;
+   
+}
+
+#btn{
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 69px;
+    border: none;
+}
+
+.timer{
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    height: 29%;
+    width: 20vh;
+    left: 830px;
+    bottom: 99px;
+    border-radius: 12px;
+}
+
+.box-time{
+    left: 300px;
+}
+
+.p-timer{
+    font-weight: bold;
+}
+
+
+#preparation-time{
+    text-align: center;
+    font-size: 35px;
+}
+.btn-play{
+
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+
+#btn-play{
+    border:none;
+    font-size:25px;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
+
+
+.footer{
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    right:500px;
+    left: 200px;
+    width: 800px;
+    height: 40px;
+    bottom: -225px;
+
+}
+
+.footer-parrafo{
+    text-align: center;
+    margin-top: 7px;
+    
+}
+
+
+
+
+ 
+
+
+
+
+   

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/stylefood.css" />
+    <title>My favorite food app</title>
+</head>
+
+<body>
+    <header class="box-header">
+        <h1>PAELLA</h1>
+    </header>
+    <nav class="nav-img">
+        <div>
+            <img src="src/img/paella.jpg" alt="paella" />
+        </div>
+    </nav>
+    <main>
+        <section id="ingredients">
+                <h2>INGREDIENTS</h2>
+                <div class="box-ingredients">
+                    <input type="checkbox" name="rice" value="rice"/>RICE<br/>
+                    <input type="checkbox" name="prawns" value="prawns"/>PRAWNS<br/>
+                    <input type="checkbox" name="oil" value="oil" />OIL<br/>
+                    <input type="checkbox" name="salt" value="salt"/>SALT<br/>
+                    <input type="checkbox" name="water" value="water" />WATER<br/>
+                    <input type="checkbox" name="garlic" value="garlic" />GARLIC<br/>
+                    <input type="checkbox" name="pepper" value="pepper" />PEPPER<br/>
+                    <input type="checkbox" name="mussels" value="mussels" />MUSSELS<br/>
+                </div>
+        </section>
+
+        <section id="preparation">
+            <button id="btn">1</button>
+            <h2>PREPARATION</h2>
+              <div class="box-preparation">
+                    <p class="preparation-parrafo">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quis sint  iusto numquam beatae excepturi fugit,Quis sint 
+                        iusto numquam beatae excepturi fugit,unt mollitia expedita
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quis sint  iusto numquam beatae excepturi fugit,Quis sint 
+                        iusto numquam beatae excepturi fugit.</p>
+
+                </div>
+        </section>
+    </main>
+
+    <aside class="timer">
+        <div class="box-time">
+            <p class="p-timer">TIME</p>
+            <div id="preparation-time"></div>
+            <div class="btn-play">
+             <button type="button" id="btn-play" onclick="play()">Play</button>
+                
+            </div>
+            
+             
+        </div>
+    </aside>
+
+
+    <footer class="footer">
+       <p class="footer-parrafo">Created By Carol V.</p>
+    </footer>
+    <script src="./src/js/app.js"></script>
+</body>
+
+</html>
